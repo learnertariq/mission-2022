@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&family=Roboto:wght@700&family=Yeseva+One&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  margin: 0 0;
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Roboto', sans-serif; */
+  color: #3e3e3e;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 5%;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+.section {
+  margin-bottom: 5rem;
+}
+
+/* Global styles */
+.img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Yeseva One", cursive;
+  color: #333;
+  margin: 0;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #13103a;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #333;
+}
+
+h4 {
+  color: #000;
+  font-size: 1.4rem;
+}
+
+/* text */
+.text--small {
+  font-size: 0.8rem;
+}
+
+.text--accent {
+  color: #ffad5a;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.flex__item {
+  width: 50%;
+}
+
+/* some desing */
+.color-bar {
+  background-color: #ff5959;
+  flex-basis: 5px;
+  height: 6rem;
+  border-radius: 1rem;
+}
+
+/***************************** reusable components */
+
+/* button */
+.btn {
+  outline: 0;
+  border-radius: 5px;
+  padding: 0.7rem 2.5rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn--accent {
+  background-color: #ff5959;
+  color: #fff;
+}
+
+/* Card */
+.card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.card__img {
+  width: 40%;
+}
+
+.card--primary {
+  background-color: #4e9ea61a;
+}
+
+.card--secondary {
+  background-color: #ff59591a;
+}
+
+.card--accent {
+  background-color: #fff4d6;
+}
+
+/****************************** Blocks start from here */
+
+/* intro block */
+
+.intro__heading-container {
+  justify-content: flex-start;
+}
+
+.intro__text--small {
+  display: block;
+  margin-top: 2rem;
+}
+
+/* mission block */
+.mission__list {
+  justify-content: space-between;
+}
