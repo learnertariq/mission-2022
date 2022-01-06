@@ -258,6 +258,8 @@ h4 {
 
 /* featrures block */
 
+
+
 .feature {
   margin-bottom: 4rem;
   gap: 4rem;
@@ -268,7 +270,14 @@ h4 {
   background-image: url(../images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-size: 15%;
-  background-position: left 30%;
+  background-position: 30% 0%;
+}
+
+.feature:last-child {
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 70% 100%;
 }
 
 .feature:nth-child(2n + 1) {
