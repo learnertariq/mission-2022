@@ -32,7 +32,7 @@ body {
 }
 
 .section {
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 /* Global styles */
@@ -50,6 +50,7 @@ h1 {
 h2 {
   color: #13103a;
   font-size: 2.4rem;
+  margin-bottom: 3rem;
 }
 
 h3 {
@@ -90,7 +91,7 @@ h4 {
 .color-bar {
   background-color: #ff5959;
   flex-basis: 5px;
-  height: 6rem;
+  height: 7rem;
   border-radius: 1rem;
 }
 
@@ -151,4 +152,26 @@ h4 {
 /* mission block */
 .mission__list {
   justify-content: space-between;
+}
+
+/* featrures block */
+
+.feature {
+  margin-bottom: 4rem;
+  gap: 4rem;
+}
+
+.feature:first-child {
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: left 30%;
+}
+
+.feature:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+.feature__img-container {
+  flex-basis: 30%;
 }
